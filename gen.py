@@ -12,7 +12,7 @@ ACCESS_KEYS = {}
 # ✅ Generate Key via Telegram Bot (Admin Only)
 @bot.message_handler(commands=['generate'])
 def generate_key(message):
-    if message.chat.id != YOUR_ADMIN_ID:  # Replace with your Telegram ID
+    if message.chat.id != 7929970637:  # Replace with your Telegram ID
         bot.reply_to(message, "❌ You are not authorized to generate keys!")
         return
     
